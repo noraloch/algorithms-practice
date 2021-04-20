@@ -3,7 +3,7 @@
  * @param {number} target
  * @return {number}
  */
- var search = function(nums, target) {
+var search = function(nums, target) {
     let low = 0;
     let top = nums.length - 1;
     
@@ -35,3 +35,5 @@ if (!nums.includes(target)) {
         }
     }
 };
+
+exports.search = search;

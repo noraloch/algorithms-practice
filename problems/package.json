@@ -1,0 +1,26 @@
+{
+  "name": "problems",
+  "version": "1.0.0",
+  "description": "Practice algorithm challenges",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nouraloudani/algorithms-practice.git"
+  },
+  "keywords": [
+    "algorithms",
+    "interview"
+  ],
+  "author": "Noura Loudani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nouraloudani/algorithms-practice/issues"
+  },
+  "homepage": "https://github.com/nouraloudani/algorithms-practice#readme",
+  "devDependencies": {
+    "mocha": "^8.3.2"
+  }
+}
