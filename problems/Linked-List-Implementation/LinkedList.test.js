@@ -11,7 +11,6 @@ describe('#insertAtHead', () => {
         expect(linkedList.head.next).toBe(oldHead)
         expect(linkedList.length).toBe(2)
 
-
     })
     
 });
