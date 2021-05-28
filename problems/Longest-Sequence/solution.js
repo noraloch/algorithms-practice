@@ -32,4 +32,4 @@ function longestSequenceNumber(arr) {
     //integer
 }
 
-// console.log(longestSequenceNumber([4,4,4,4,4,4,2,2,3,4,4,4,4,4,6,6,8,8,8,8,8,8,8,7,8]));
+// console.log(longestSequenceNumber([4,4,4,4,6,6,8,8,8,8,8,8,8,7,8])); // -> outputs 7
