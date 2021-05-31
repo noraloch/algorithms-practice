@@ -140,7 +140,7 @@ describe('#removeAtIndex', () => {
             expect(linkedList.length).toBe(2)
         })
     })
-    
+
 });
 
 describe('#removeHead', () => {
