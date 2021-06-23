@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/nouraloudani/algorithms-practice#readme",
   "devDependencies": {
-    "mocha": "^8.3.2"
+    "mocha": "^8.4.0"
   }
 }
