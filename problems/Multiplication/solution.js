@@ -2,16 +2,17 @@ function multiply(a, b) {
     let result = 0;
     let isANegative = false;
     let isBNegative = false;
+    let newA;
     if (a < 0) {
-        Math.abs(a);
+         newA = Math.abs(a);
         isANegative = true;
     }
     if (b < 0) {
-        b.Math.abs();
+        Math.abs(b);
         isBNegative = true;
     }
 
-    for (let i = 0; i < a; i++) {
+    for (let i = 0; i < newA; i++) {
         result += b;
         console.log(result)
     }
@@ -25,5 +26,3 @@ function multiply(a, b) {
     }
 
 }
-
-console.log(multiply(-3, 81));
