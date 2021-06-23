@@ -1,23 +1,36 @@
-function lengthOfLongestSubString(string) {
+/**
+ * @param {string} s
+ * @return {number}
+ */
+ var lengthOfLongestSubstring = function(s) {
     let finalSeq = "";
-    for (let i = 0; i < string.length; i++) {
-        let tempSeq = "";
-        for (let l = i; l < string.length; l++) {
-            if (!tempSeq.includes(string.charAt(l))) {
-                tempSeq += string.charAt(l);
-                if (l === string.length - 1) {
-                    finalSeq = tempSeq > finalSeq ? tempSeq : finalSeq
-                    if ( i === 0) {
-                        return finalSeq.length;
+    
+    let map = new Map();
+    
+    for (let i=0; i < s.length; i++) {
+        map.set(i, s.charAt(i));
+        
+    }
+    
+    for (let i = 0; i < s.length; i++) {
+        let innerSeq = "";
+        for (let y = i; y < s.length; y++ ) {
+            if (!innerSeq.includes(s.charAt(y))) {
+                innerSeq += s.charAt(y);
+                if (y === s.length - 1) {
+                    finalSeq = innerSeq.length > finalSeq.length ? innerSeq : finalSeq
+                    if (i === 0) {
+                        return finalSeq.length
                     }
                 }
             } else {
-                finalSeq = tempSeq > finalSeq ? tempSeq : finalSeq
-                l = string.length
+                finalSeq = innerSeq.length > finalSeq.length ? innerSeq : finalSeq
+                y = s.length
             }
         }
+        
     }
     return finalSeq.length;
-}
+};
 
-console.log(lengthOfLongestSubString("aaaa"));
+console.log(lengthOfLongestSubstring("abcabcbb"));
