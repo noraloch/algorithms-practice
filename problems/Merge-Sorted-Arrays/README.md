@@ -19,3 +19,5 @@ function mergeTwo(arr1, arr2) {
   return result.sort((a,b) => a-b);
 }
 ```
+
+Solution has an optimal simple approach
