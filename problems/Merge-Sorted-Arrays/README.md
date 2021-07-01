@@ -21,3 +21,5 @@ function mergeTwo(arr1, arr2) {
 ```
 
 Check the solution file for an optimal better approach
+
+// console.log(mergeTwo([1, 2, 3, 0, 0, 0], [2, 5, 6]))
