@@ -20,4 +20,3 @@ function mergeTwo(arr1, arr2) {
 }
 ```
 
-Solution has an optimal simple approach
