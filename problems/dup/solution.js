@@ -1,1 +1,1 @@
-let unique = [];
+let uniqueIntegers = [];
