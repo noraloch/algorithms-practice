@@ -1,1 +1,4 @@
-let uniqueIntegers = [];
+function removeDup(nums) {
+    let uniqueNums = [];
+
+}
