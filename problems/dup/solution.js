@@ -1,26 +1,20 @@
 function removeDup(nums) {
     let uniqueNums = [];
-    let bool = [];
-    let prevNum;
-
-
     nums.forEach(num,i => {
-       '
-       '
 
         if (uniqueNums.length === 0) {
             uniqueNums.push(num);
         }
         else {
-            if (nums)
+            if (num !== nums[i-1]) {
+                uniqueNums.push(num);
+            } else {
+                i++
+            }
         }
-        // if (prevNum !== num) {
-
-        // }
-        // if (bool[num] === undefined)
-        //     bool[num] = false;
-        // else if (bool[num] === false)
-        //     bool[num] = true;
-        // prevNum = num;
     })
+    nums = uniqueNums;
+    return nums;
 }
+
+console.log(removeDup([1,3,3,3,5,6,6,6,8,8]));
