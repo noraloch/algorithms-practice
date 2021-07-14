@@ -1,6 +1,7 @@
 function removeDup(nums) {
     let uniqueNums = [];
-    nums.forEach(num,i => {
+
+    nums.forEach((num, i) => {
 
         if (uniqueNums.length === 0) {
             uniqueNums.push(num);
