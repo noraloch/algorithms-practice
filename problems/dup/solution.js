@@ -19,3 +19,4 @@ function removeDup(nums) {
 }
 
 console.log(removeDup([1,3,3,3,5,6,6,6,8,8]));
+console.log(removeDup([1,1,2]));
