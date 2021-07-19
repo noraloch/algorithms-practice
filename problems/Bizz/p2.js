@@ -20,7 +20,6 @@ function areAnagrams(word1, word2) {
         let ind = w2Array.indexOf(c);
         w2Array.splice(ind, 1);
     }
-
     return isAnag;
 }
 

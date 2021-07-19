@@ -11,3 +11,5 @@ function('finder','Friend') -->true
 function('hello','bye') -->false--------**
 
 ### P3
+*Write a function to represent Floyd Triangle, given input is the number of rows of the Floyd triangle
+Example if the number of rows is 3
