@@ -13,3 +13,7 @@ function('hello','bye') -->false--------**
 ### P3
 *Write a function to represent Floyd Triangle, given input is the number of rows of the Floyd triangle
 Example if the number of rows is 3
+
+### P4
+Wrinte a function that given a list of countries, returns the country(s) that occur the least times
+i.e- ["Argentina", "Cuba", "Chile", "Argentina"]->["Cuba", "Chile"]
