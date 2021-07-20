@@ -8,9 +8,9 @@ let least = (countries) => {
             cObj[c]++;
         }
     })
-    // let min = Math.min(...Object.values(cObj));
-    result = (Object.keys(cObj).filter(key => cObj[key] === Math.min(...Object.values(cObj))));
+    let min = Math.min(...Object.values(cObj));
+    result = (Object.keys(cObj).filter(key => cObj[key] === min));
     return result;
 }
 
-console.log(least(["USA", "France", "Finland", "USA", "Morocco", "France"]));
+// console.log(least(["USA", "France", "Finland", "USA", "Morocco", "France"]));
