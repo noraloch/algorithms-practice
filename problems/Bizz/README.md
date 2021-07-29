@@ -17,3 +17,7 @@ Example if the number of rows is 3
 ### P4
 Wrinte a function that given a list of countries, returns the country(s) that occur the least times
 i.e- ["Argentina", "Cuba", "Chile", "Argentina"]->["Cuba", "Chile"]
+
+### P5
+Have the function FirstFactorial(num) take the num parameter being passed and return the factorial of it. 
+i.e-  if num = 4, then your program should return (4 3 2 1) = 24.
